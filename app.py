@@ -5,7 +5,7 @@ app = Flask(__name__)
 freezer = Freezer(app)
 
 
-@app.route('/')
+@app.route('/home')
 def home():
     return render_template('index.html')
 
